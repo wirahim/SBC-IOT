@@ -45,11 +45,12 @@ This solved the concurrent DNS request issues with PiHole
 3. Install and configure PiVPN
 
 Now I was having 2 problems:
-** 1: Devices can connect to vpn but can not access internet or local network. PiVPN somehow did not finish iptable setup. Running debug solved this issue.
+
+* 1: Devices can connect to vpn but can not access internet or local network. PiVPN somehow did not finish iptable setup. Running debug solved this issue.
 ```
 sudo pivpn -d
 ```
-** 2. the configs folder which holds the files required to create the tunnels were inaccessible. Take ownership of the folder and files.
+* 2. the configs folder which holds the files required to create the tunnels were inaccessible. Take ownership of the folder and files.
 ```
 sudo chown username:username -R configs
 ```
