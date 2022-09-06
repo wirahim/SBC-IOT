@@ -46,7 +46,7 @@ This solved the concurrent DNS request issues with PiHole
 
 Now I was having 2 problems:
 
-* 1: Devices can connect to vpn but can not access internet or local network. PiVPN somehow did not finish iptable setup. Running debug solved this issue.
+* 1. Devices can connect to vpn but can not access internet or local network. PiVPN somehow did not finish iptable setup. Running debug solved this issue.
 ```
 sudo pivpn -d
 ```
